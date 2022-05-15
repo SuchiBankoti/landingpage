@@ -1,0 +1,39 @@
+.top{
+    display:flex;
+    flex-direction: column;
+    background-color:#1F2937;
+}
+.logos{
+    display:flex;
+    /*background-color:;*/
+    justify-content: space-between;
+    
+}
+ul{
+    display:flex;
+    background-color: violet;
+
+}
+h1{
+    background-color: yellow;
+}
+.content{
+    display:flex;
+}
+.text{
+    display:text;
+    flex-direction: column;
+}
+.boxes{
+    display:flex;
+    background-color: pink;
+}
+.quote{
+    display:flex;
+    background-color: turquoise;
+}
+.actionbox
+{
+    display:flex;
+    background-color: skyblue;
+}
