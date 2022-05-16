@@ -87,10 +87,18 @@ a , ul{
 
 .quote{
     display:flex;
-    background-color: turquoise;
-    height:25vh;
     flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
+.quote div{
+    margin-left:200px;
+    margin-right:200px;
+    padding:50px;
+}
+
+
 /*
 .actionbox
 {
