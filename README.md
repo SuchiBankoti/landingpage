@@ -19,9 +19,11 @@ Main content
 4. quote
 5. sign up box
 
-Create a flex box with (flex direction: column)1. heading 2. illustrations(further divide into items)
-3. quote 4. sign up box
+Create a flex box with (flex direction: column)1. heading 2. illustrations(further divide into items){
+    create a class for images and descriptions, divide them into subclasses of the same name . put one image with its description into one class. 
+}
+3. quote {add a flex box and set direction : column, increase left margin for the name of the author}
 
-
+4. sign upbox.
 Footer
 1.text.
