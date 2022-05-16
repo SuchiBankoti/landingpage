@@ -1,39 +1,145 @@
+/*top header*/
+body{
+    display:flex;
+    flex-direction: column;
+}
+
 .top{
     display:flex;
     flex-direction: column;
     background-color:#1F2937;
+    height:25vh;
+    
 }
 .logos{
     display:flex;
-    /*background-color:;*/
-    justify-content: space-between;
+   justify-content: space-between;
+   align-items:flex-start;
+   
+}
+a , ul{
+   display: flex;
+    list-style: none;
     
-}
-ul{
-    display:flex;
-    background-color: violet;
-
-}
-h1{
-    background-color: yellow;
-}
+ }
 .content{
     display:flex;
+    flex-shrink:1;
+    /* flex-shrink: 2; */
+    
+    
+}
+#heading{
+    font-size:48px;
+    
 }
 .text{
     display:text;
     flex-direction: column;
+background-color: grey;
+margin-bottom: 40px;
+margin-left: 30px;
+margin-right:20px;
+color:#F9FAF8;
+width:auto;
+flex-shrink: 5;
+
 }
+.text div{
+    font-size: 18px;
+}
+.logo{
+    font-size: 24px;
+}
+button{
+   margin:5px;
+}
+.top img{
+    width:auto;
+    height:auto;
+    display:flex;
+   /* flex-shrink: 1; */
+    /* margin-bottom: 200px;*/
+    margin-top: 20px;
+    background-color:blue;
+}
+/*-----------*/
+/*middle content*/
+
 .boxes{
     display:flex;
+    flex-direction: column;
     background-color: pink;
+    align-items: center;
+    height:25vh;
+    
 }
+.emptybox{
+    display:flex;
+    margin:20px;
+    
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+.emptybox p{
+    display:text;
+    
+    flex-wrap:wrap;
+    width:200px;
+    background-color: red;
+}
+.emptybox img{
+    display:flex;
+    width:50px;
+    height:50px;
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 2px;
+}
+.illus{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/*quote box*/
 .quote{
     display:flex;
     background-color: turquoise;
+    height:25vh;
+    flex-direction: column;
+    
 }
+#author{
+    margin-left: 70%;
+}
+#quote{
+    width:50%;
+    height:100px;
+    padding:20px;
+    margin-left:20px;
+    /* margin:30px; */
+    background-color: red;
+}
+
+/*signup box*/
 .actionbox
 {
     display:flex;
+    justify-content: space-between;
     background-color: skyblue;
+    height:20vh;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    
+    
+}
+.t{
+    display:flex;
+    flex-direction: column;
+}
+.footer{
+   height:5vh;
 }
